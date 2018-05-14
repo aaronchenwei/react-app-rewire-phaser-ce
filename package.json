@@ -1,7 +1,23 @@
 {
   "name": "react-app-rewire-phaser-ce",
   "version": "0.1.0",
+  "description": "Enable phaser-ce in a react-app-rewired application",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronchenwei/react-app-rewire-phaser-ce.git"
+  },
+  "keywords": [
+    "react",
+    "react-app-rewired",
+    "phaser-ce"
+  ],
+  "author": "Aaron Chen <aaronchenwei@hotmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaronchenwei/react-app-rewire-phaser-ce/issues"
+  },
+  "homepage": "https://github.com/aaronchenwei/react-app-rewire-phaser-ce/issues",
   "dependencies": {
     "expose-loader": "^0.7.5",
     "imports-loader": "^0.8.0"
