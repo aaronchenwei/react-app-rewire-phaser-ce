@@ -1,6 +1,6 @@
 {
   "name": "react-app-rewire-phaser-ce",
-  "version": "0.3.0",
+  "version": "0.4.0-0",
   "description": "Enable phaser-ce in a react-app-rewired application",
   "main": "index.js",
   "repository": {
