@@ -12,7 +12,7 @@
     "react-app-rewired",
     "phaser-ce"
   ],
-  "author": "Aaron Chen <aaronchenwei@hotmail.com>",
+  "author": "aaronchenwei <aaronchenwei@hotmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/aaronchenwei/react-app-rewire-phaser-ce/issues"
