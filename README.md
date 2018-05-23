@@ -6,6 +6,8 @@
   </a>
 </p>
 
+Enable [phaser-ce](https://github.com/photonstorm/phaser-ce) in a [react-app-rewired](https://github.com/timarney/react-app-rewired) application.
+
 ### How to Use
 
 ```javascript
