@@ -4,3 +4,5 @@
 .travis.yml
 package-lock*
 yarn.lock
+.prettierrc
+.prettierignore
