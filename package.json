@@ -7,17 +7,14 @@
     "type": "git",
     "url": "git+https://github.com/aaronchenwei/react-app-rewire-phaser-ce.git"
   },
-  "keywords": [
-    "react",
-    "react-app-rewired",
-    "phaser-ce"
-  ],
+  "keywords": ["react", "react-app-rewired", "phaser-ce"],
   "author": "aaronchenwei <aaronchenwei@hotmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/aaronchenwei/react-app-rewire-phaser-ce/issues"
   },
-  "homepage": "https://github.com/aaronchenwei/react-app-rewire-phaser-ce/issues",
+  "homepage":
+    "https://github.com/aaronchenwei/react-app-rewire-phaser-ce/issues",
   "dependencies": {
     "expose-loader": "^0.7.5",
     "imports-loader": "^0.8.0"
@@ -28,13 +25,10 @@
     "prettier": "^1.12.1"
   },
   "peerDependencies": {
-    "phaser-ce": "^2.10.4"
+    "phaser-ce": "^2.10.5"
   },
   "lint-staged": {
-    "index.js": [
-      "prettier --config .prettierrc --write",
-      "git add"
-    ]
+    "index.js": ["prettier --config .prettierrc --write", "git add"]
   },
   "scripts": {
     "precommit": "lint-staged",
