@@ -3,3 +3,4 @@
 .npmrc
 .travis.yml
 package-lock*
+yarn.lock
