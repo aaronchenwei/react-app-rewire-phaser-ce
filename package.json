@@ -17,18 +17,16 @@
   "bugs": {
     "url": "https://github.com/aaronchenwei/react-app-rewire-phaser-ce/issues"
   },
-  "homepage": "https://github.com/aaronchenwei/react-app-rewire-phaser-ce/issues",
+  "homepage": "https://github.com/aaronchenwei/react-app-rewire-phaser-ce",
   "dependencies": {
     "expose-loader": "^0.7.5",
-    "imports-loader": "^0.8.0"
+    "imports-loader": "^0.8.0",
+    "phaser-ce": "^2.10.5"
   },
   "devDependencies": {
     "husky": "^0.14.3",
     "lint-staged": "^7.1.0",
     "prettier": "^1.12.1"
-  },
-  "peerDependencies": {
-    "phaser-ce": "^2.10.5"
   },
   "lint-staged": {
     "index.js": [
