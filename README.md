@@ -1,8 +1,6 @@
 # react-app-rewire-phaser-ce
 
-[![npm][npm]][npm-url]
-[![node][node]][node-url]
-[![deps][deps]][deps-url]
+[![NPM](https://img.shields.io/npm/v/react-app-rewire-phaser-ce.svg)](https://www.npmjs.com/package/react-app-rewire-phaser-ce)
 
 Enable [phaser-ce](https://github.com/photonstorm/phaser-ce) in a [react-app-rewired](https://github.com/timarney/react-app-rewired) application.
 
