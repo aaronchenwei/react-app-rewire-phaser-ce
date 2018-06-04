@@ -22,21 +22,15 @@
     "expose-loader": "^0.7.5",
     "imports-loader": "^0.8.0",
     "phaser-ce": "^2.10.5",
-    "webpack": "^4.9.1"
+    "webpack": "^4.10.2"
   },
   "devDependencies": {
     "husky": "^0.14.3",
-    "lint-staged": "^7.1.0",
-    "prettier": "^1.13.3"
-  },
-  "lint-staged": {
-    "index.js": [
-      "prettier --config .prettierrc --write",
-      "git add"
-    ]
+    "prettier": "^1.13.4",
+    "pretty-quick": "^1.6.0"
   },
   "scripts": {
-    "precommit": "lint-staged",
+    "precommit": "pretty-quick --staged",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
