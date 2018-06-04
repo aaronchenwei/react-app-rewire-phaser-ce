@@ -1,9 +1,6 @@
 const path = require('path');
-const fs = require('fs');
 
-const projectDir = path.resolve(fs.realpathSync(process.cwd()));
-
-const phaserModule = path.join(projectDir, '/node_modules/phaser-ce/');
+const phaserModule = path.dirname(require.resolve('phaser-ce/package.json'));
 const phaser = path.join(phaserModule, 'build/custom/phaser-split.js');
 const pixi = path.join(phaserModule, 'build/custom/pixi.js');
 const p2 = path.join(phaserModule, 'build/custom/p2.js');
