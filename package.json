@@ -21,12 +21,12 @@
   "dependencies": {
     "expose-loader": "^0.7.5",
     "imports-loader": "^0.8.0",
-    "phaser-ce": "^2.10.5",
-    "webpack": "^4.10.2"
+    "phaser-ce": "^2.10.6",
+    "webpack": "^4.12.0"
   },
   "devDependencies": {
     "husky": "^0.14.3",
-    "prettier": "^1.13.4",
+    "prettier": "^1.13.5",
     "pretty-quick": "^1.6.0"
   },
   "scripts": {
